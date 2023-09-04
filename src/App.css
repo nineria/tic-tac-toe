@@ -1,0 +1,32 @@
+.square-button {
+  width: 4rem;
+  height: 4rem;
+
+  cursor: pointer;
+
+  font-size: 2.5rem;
+  font-weight: 700;
+
+  background: #7b7b7b;
+  color: #ccc;
+  border: none;
+
+  transition: all 0.5 ease-in;
+  transition-duration: 100ms;
+}
+
+.square-button:disabled {
+  width: 4rem;
+  height: 4rem;
+
+  cursor: not-allowed;
+
+  font-size: 2.5rem;
+  font-weight: 700;
+  background: #6b6b6b;
+  border: none;
+}
+
+.square-button:hover {
+  background: #6b6b6b;
+}
